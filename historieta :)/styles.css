@@ -1,0 +1,9 @@
+.panel{
+    display: none;
+    pading:20px;
+    background-color: aquamarine;
+    border-radius: 10%;
+    box-shadow: 0 4px rgb(rgb(45, 247, 5), rgb(255, 145, 0), rgb(0, 255, 200));
+    animation: fadein 0.5s ease;
+}
+
