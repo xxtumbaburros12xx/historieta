@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <link rel="stylesheat" href="./styles.css"
+     <link rel="stylesheet" href="./styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -9,32 +9,58 @@
 <body>
     <header>
 
-        <h1>las flipantes aventuras con las mascaras de animales osita chaval</h1>
+        <h1>las flipantes aventuras con las mascaras de animales ostia chaval</h1>
     </header>
     <main>
         <!--controladores invisibles para los paneles-->
-        <imput type="radio"name="panel" id="content-panel1"checked></imput>
-        <imput type="radio"name="panel" id="content-panel1"checked></imput>
-        <imput type="radio"name="panel" id="content-panel1"checked></imput>
-        <imput type="radio"name="panel" id="content-panel1"checked></imput>
-        <imput type="radio"name="panel" id="content-panel1"checked></imput>
+        <input type="radio"name="panel" id="panel1"checked>
+        <input type="radio"name="panel" id="panel2">
+        <input type="radio"name="panel" id="panel3">
+        <input type="radio"name="panel" id="panel4">
 
-    </main>
+
     <!--panel 1-->
-    <div class="--panel" id="content-panel1">
+    <div class="panel" id="content-panel1">
         <img src="./DP1DSECgxFmM (1).jpg" alt="el gato hace mewing">
         <h2>super mewing!!!!!</h2>
         <p>el gato tiene mucho mewing !!</p>
+        <div class="navigation">
+            <label for="panel2" class="button"> siguiente</label>
+        </div>
     </div>
+
     <!--PANHEL2-->
     <div class="panel" id="content-panel2">
-        <img src=""alt ="mewing!!!!!!!!!!!!!!">
-        <h2>haciendo mewing</h2>
-        <p HACEN MUCHO MEWING!!!!!!!!!></p>
-        <div class="mewing"></div>
-        <label for="panel1" class="buton">anterior</label>
-        <label for="panel1" class="button">anterior</label>
+        <img src="./images.jpeg"alt ="mewing!!!!!!!!!!!!!!">
+        <h2>sorprendido</h2>
+        <p>eso es MUCHO MEWING!!!!!!!!!</p>
+        <div class="navigation">
+            <label for="panel1" class="button">anterior</label>
+            <label for="panel3" class="button">siguiente</label>
+        </div>
     </div>
+
+    <div class="panel" id="content-panel3">
+        <img src="./ugywjdjkaq961.webp"alt ="mewing!!!!!!!!!!!!!!">
+        <h2>batalla</h2>
+        <p> no puede ser ... te reto a una batlla de MEWING!!!!!!!!!</p>
+        <div class="navigation">
+            <label for="panel2" class="button">anterior</label>
+            <label for="panel4" class="button">siguiente</label>
+        </div>
+    </div>
+
+    <div class="panel" id="content-panel4">
+        <img src="./ad674dd4-3c87-4bae-b342-0228bd3856b8-1653352322880.jpg"alt ="mewing!!!!!!!!!!!!!!">
+        <h2>ataque!!!</h2>
+        <p> jiaaaa!!!!!!!!!</p>
+        <div class="navigation">
+            <label for="panel3" class="button">Anterior</label>
+            <label for="panel1" class="button">Inicio</label>
+        </div>
+    </div>
+    </main>
+
          
 </body>
 </html>
